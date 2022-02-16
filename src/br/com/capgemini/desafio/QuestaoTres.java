@@ -17,20 +17,20 @@ public class QuestaoTres {
 		System.out.println("Essa palavra tem " + quantidadeAnagramas + "anagramas dentro de si");
 
 	}
-	
+
 	// valida que uma String é anagrama da outra
 	private static boolean saoAnagramas(String caracteresUm, String caracteresDois) {
 
 		char[] listaCharUm = caracteresUm.toCharArray();
-        char[] ListaCharDois = caracteresDois.toCharArray();
-       
-        Arrays.sort(listaCharUm);
-        Arrays.sort(ListaCharDois);
-        
-        return Arrays.equals(listaCharUm, ListaCharDois);
+		char[] ListaCharDois = caracteresDois.toCharArray();
+
+		Arrays.sort(listaCharUm);
+		Arrays.sort(ListaCharDois);
+
+		return Arrays.equals(listaCharUm, ListaCharDois);
 	}
-	
-	//Vai testar a palavra escolhida com substring dela msm
+
+	// Vai testar a palavra escolhida com substring dela mesma
 	private static int verificaAnagramasSubstring(String s, int p) {
 		Integer quantidadeAnagramas = 0;
 
@@ -45,8 +45,7 @@ public class QuestaoTres {
 
 				String comparaUm = listaConjuntos.get(i);
 				String comparaDois = listaConjuntos.get(c);
-				
-				
+
 				if (saoAnagramas(comparaUm, comparaDois)) {
 					quantidadeAnagramas++;
 				}
