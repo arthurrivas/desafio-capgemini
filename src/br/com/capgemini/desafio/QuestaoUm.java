@@ -8,7 +8,7 @@ public class QuestaoUm {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 
-		Integer numeroEscolhido = solicitaValor(scan);
+		Integer numeroEscolhido = solicitaValor(scan); 
 
 		montaEscada(numeroEscolhido);
 

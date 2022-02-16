@@ -47,7 +47,7 @@ public class QuestaoTres {
 				String comparaDois = listaConjuntos.get(c);
 
 				if (saoAnagramas(comparaUm, comparaDois)) {
-					quantidadeAnagramas++;
+					quantidadeAnagramas++; 
 				}
 			}
 		}

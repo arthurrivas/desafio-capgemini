@@ -13,7 +13,7 @@ public class QuestaoDois {
 
 		solicitaNovaSenha(scan);
 		
-	}
+	} 
 	
 	// responsavel por solicitar a senha e dar um retorno dizendo se eh uma senha valida ou não
 	public static void solicitaNovaSenha(Scanner scan) {
