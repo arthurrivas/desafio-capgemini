@@ -44,7 +44,7 @@ public class QuestaoTres {
 			for (int c = i + 1; c < listaConjuntos.size(); c++) {
 
 				String comparaUm = listaConjuntos.get(i);
-				String comparaDois = listaConjuntos.get(c);
+				String comparaDois = listaConjuntos.get(c); 
 
 				if (saoAnagramas(comparaUm, comparaDois)) {
 					quantidadeAnagramas++; 

@@ -20,7 +20,7 @@ public class QuestaoDois {
 		System.out.println("Digite uma senha para testar se ela é valida");
 		System.out.println(	"Obs: ela deve conter no minimo 6 caracteres.");
 		System.out.println("1 numero, 1 caractere especial uma letra em maiusculo e uma letra minusculo ");
-		
+		 
 		boolean senhaInvalida = true;
 		while(senhaInvalida) {
 			String senha = scan.next();
