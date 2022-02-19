@@ -37,7 +37,7 @@ public class QuestaoTres {
 		ArrayList<String> listaConjuntos = new ArrayList();
 
 		for (int i = 0; i <= s.length() - p; i++) {
-			listaConjuntos.add(s.substring(i, i + p));
+			listaConjuntos.add(s.substring(i, i + p)); 
 		}
 
 		for (int i = 0; i < listaConjuntos.size(); i++) {

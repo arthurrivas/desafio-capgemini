@@ -17,7 +17,7 @@ public class QuestaoDois {
 	
 	// responsavel por solicitar a senha e dar um retorno dizendo se eh uma senha valida ou não
 	public static void solicitaNovaSenha(Scanner scan) {
-		System.out.println("Digite uma senha para testar se ela é valida");
+		System.out.println("Digite uma senha para testar se ela é valida"); 
 		System.out.println(	"Obs: ela deve conter no minimo 6 caracteres.");
 		System.out.println("1 numero, 1 caractere especial uma letra em maiusculo e uma letra minusculo ");
 		 

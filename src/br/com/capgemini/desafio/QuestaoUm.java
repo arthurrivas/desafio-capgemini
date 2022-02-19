@@ -11,7 +11,7 @@ public class QuestaoUm {
 		Integer numeroEscolhido = solicitaValor(scan); 
 
 		montaEscada(numeroEscolhido);
-
+ 
 	} 
 
 	// Solicita um valor e garante que seja retornado um valor inteiro entre 1 e 100
