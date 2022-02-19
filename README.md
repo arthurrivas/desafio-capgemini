@@ -6,7 +6,6 @@ Para rodar cada resolução, basta baixar o arquivo e rodar a classe de cada um 
 Por se tratar de desafios "simples", não achei necessario criar classes de auxilio. Para a organização, utilzei os métodos da propria classe como estaticos.
 Todos os códigos foram escritos usando java 10.0.2. Disponivel em: https://www.oracle.com/br/java/technologies/java-archive-javase10-downloads.html
 
-## Erro deu um bug no encode. Logo irei resolver
 ## Abaixo breves comentarios sobre as questões
 
 :evergreen_tree: Questão um:
